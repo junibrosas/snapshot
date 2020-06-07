@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Item from './components/Item';
 import Search from './components/Search';
 import NotFound from './components/NotFound';
+import A2HSButton from './components/A2HSButton';
 
 class App extends Component {
   // Prevent page reload, clear input, set URL and push history on submit
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <PhotoContextProvider>
+        <A2HSButton />
         <HashRouter basename='/'>
           <div className='container'>
             <Route
