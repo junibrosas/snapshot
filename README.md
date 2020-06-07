@@ -1,4 +1,4 @@
-[Demo of Snap Shot](https://junibrosas.github.io/react-pwa/)
+[Demo of Snap Shot](https://junibrosas.github.io/snapshot/)
 
 ![](/snapscout.png)
 
