@@ -1,4 +1,4 @@
-[Demo of Snap Shot](https://junibrosas.github.io/snapshot/)
+[Demo of Snap Shot](https://practical-goldwasser-607048.netlify.app/)
 
 ![](/snapscout.png)
 
