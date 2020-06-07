@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Item from './components/Item';
 import Search from './components/Search';
 import NotFound from './components/NotFound';
+import A2HSButton from './components/A2HSButton';
 import NotificationButton from './components/NotificationButton';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
   render() {
     return (
       <PhotoContextProvider>
+        <A2HSButton />
         <NotificationButton />
         <HashRouter basename='/'>
           <div className='container'>
