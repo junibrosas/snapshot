@@ -6,6 +6,7 @@ import Item from './components/Item';
 import Search from './components/Search';
 import NotFound from './components/NotFound';
 import A2HSButton from './components/A2HSButton';
+import NotificationButton from './components/NotificationButton';
 
 class App extends Component {
   // Prevent page reload, clear input, set URL and push history on submit
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <PhotoContextProvider>
         <A2HSButton />
+        <NotificationButton />
         <HashRouter basename='/'>
           <div className='container'>
             <Route
